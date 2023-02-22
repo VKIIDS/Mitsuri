@@ -43,6 +43,7 @@ if a == ('How_to_use'):
     print('''
     Name     Type                   Link                            Git
     Dmitry  Osint.      https://youtu.be/z2EUhV11QB4  https://github.com/jaygreig86/dmitry
-
+    
+    Nmap    Scanner     https://youtu.be/5MTZdN9TEO4  https://github.com/nmap/nmap   
 
     ''')
