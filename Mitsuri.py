@@ -1,5 +1,4 @@
 print ('''
-
 ███╗░░░███╗██╗████████╗░██████╗██╗░░░██╗██████╗░██╗
 ████╗░████║██║╚══██╔══╝██╔════╝██║░░░██║██╔══██╗██║
 ██╔████╔██║██║░░░██║░░░╚█████╗░██║░░░██║██████╔╝██║
@@ -7,8 +6,7 @@ print ('''
 ██║░╚═╝░██║██║░░░██║░░░██████╔╝╚██████╔╝██║░░██║██║
 ╚═╝░░░░░╚═╝╚═╝░░░╚═╝░░░╚═════╝░░╚═════╝░╚═╝░░╚═╝╚═╝
 
-''')
-
+    ''')
 print('What you want to use?')
 print('[+] Calculator')
 print ('[+] Ip info')
@@ -17,6 +15,7 @@ print ('[+] Google hacking database')
 print ('[+] Courses')
 print ('[+] Info')
 print ('[+] Nmap scripts')
+print('[+] How to use')
 print('[+] How to install')
 print('[+] Contact me')
 print ('For example: Ip_info, Contact_me or more')
@@ -29,18 +28,21 @@ if a == ('Calculator'):
     if C == ('*'):
         print (A * B)
     elif C == ('**'):
-        print (A ** B)
+         print (A ** B)
     elif C == ('%'):
-        print(A % B)
+         print(A % B)
     elif C == ('/'):
-        print(A / B)
+         print(A / B)
     elif C == ('//'):
-        print(A // B)
+         print(A // B)
     elif C == ('-'):
-        print(A - B)
+         print(A - B)
     elif C == ('+'):
-        print(A + B)
-print("Wanna continue?")
-c = input()
-if c == ('yes'):
-    continue 
+         print(A + B)
+if a == ('How_to_use'):
+    print('''
+    Name     Type                   Link                            Git
+    Dmitry  Osint.      https://youtu.be/z2EUhV11QB4  https://github.com/jaygreig86/dmitry
+
+
+    ''')
