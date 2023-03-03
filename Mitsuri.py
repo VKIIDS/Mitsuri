@@ -18,6 +18,7 @@ print('[+] How to use')
 print('[+] How to install')
 print('[+] Contact me')
 print('[+] Hacker teams')
+print('[+]Books')
 print ('For example: Ip_info, Contact_me or more')
 a = input('What you wanna use from this script: ')
 if a == ('Calculator'):
@@ -39,6 +40,56 @@ if a == ('Calculator'):
          print(A - B)
     elif C == ('+'):
          print(A + B)
+if a == ('Courses'):
+	print('''
+Type			Link					Time		Language
+Python		https://youtu.be/B9nFMZIYQl0			12 hours	English
+
+Penetration 	https://www.youtube.com/watch?v=sH4JCwjybGs	15 hours	English		
+	
+C++		https://youtu.be/8jLOx1hD3_o			31 hours	English	
+	
+OSINT		https://youtu.be/ZDtQ0bapigg			3 Hours		English	
+	
+C#		https://youtu.be/M5ugY7fWydE			9 hours		English
+
+CSS & HTML 	https://youtu.be/G3e-cpL7ofc			6 hours		English
+
+C 		https://youtu.be/KJgsSFOSQv0			4 hours		English
+
+WebDev		https://youtu.be/ZxKM3DCV2kE			22 hours	English
+
+Java 		https://youtu.be/xk4_1vDrzzo			12 hours	English
+
+Ruby		https://youtu.be/MXlZCgh2M6A			6 hours		English
+
+VirusDev	https://youtu.be/yrRAzlxI5es			4 Hours		English
+
+GameDev		https://youtu.be/I549C6SmUnk			11 Hours	English
+
+Lua		https://youtu.be/1srFmjt1Ib0			4 hours		English
+
+MySQL		https://youtu.be/HXV3zeQKqGY			4 hours		English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			''')
 if a == ('Hacker_teams'):
     print('''
 T.Y.G Team              https://t.me/TYG_TEAM        Mr.Sami   https://github.com/mr-sami-x  
@@ -73,7 +124,8 @@ P.s i want to to join T.Y.G Team, i learning hacking to become part of T.Y.G Tea
 if a ==('Info'):
     print('''
 Hello, i'm Okay, i'm creator of this tool.Please read the readme.md this help you navigate in this tool, and help you use this tool :).This tool help novices.Here been courses,books,tutorials,and more another.This tool help you learning hacking , offencive security, learn hacking tools, and somebody help you making scripts in python :).So ye, if you have questions tell me in telegram:
-@Neyaneste    
+@Neyaneste
+
  ''')
 if a == ('Contact_me'):
      print('''
@@ -102,7 +154,7 @@ if a == ('How_to_use'):
     
  OWASP ZAP  VulnScanner https://youtu.be/Ycas8mskSZk  https://github.com/zaproxy/zaproxy
     
-    
+ Dirbuster  FileFinder 	https://youtu.be/bewbdPvs_g8  https://github.com/digination/dirbuster-ng
     
     
     
@@ -111,8 +163,41 @@ if a == ('How_to_use'):
     ''')
     print('What info of tool you wanna see ')
     s = input()
+    if s == ('Dirbuster'):
+    	print('''
+
+██████╗░██╗██████╗░██████╗░██╗░░░██╗░██████╗████████╗███████╗██████╗░
+██╔══██╗██║██╔══██╗██╔══██╗██║░░░██║██╔════╝╚══██╔══╝██╔════╝██╔══██╗
+██║░░██║██║██████╔╝██████╦╝██║░░░██║╚█████╗░░░░██║░░░█████╗░░██████╔╝
+██║░░██║██║██╔══██╗██╔══██╗██║░░░██║░╚═══██╗░░░██║░░░██╔══╝░░██╔══██╗
+██████╔╝██║██║░░██║██████╦╝╚██████╔╝██████╔╝░░░██║░░░███████╗██║░░██║
+╚═════╝░╚═╝╚═╝░░╚═╝╚═════╝░░╚═════╝░╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝    	
+    	
+DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers. Often is the case now of what looks like a web server in a state of default installation is actually not, and has pages and applications hidden within. DirBuster attempts to find these.
+
+However tools of this nature are often as only good as the directory and file list they come with. A different approach was taken to generating this. The list was generated from scratch, by crawling the Internet and collecting the directory and files that are actually used by developers! DirBuster comes a total of 9 different lists, this makes DirBuster extremely effective at finding those hidden files and directories. And if that was not enough DirBuster also has the option to perform a pure brute force, which leaves the hidden directories and files nowhere to hide.
+
+If you wanna install dirbuster print in terminal:
+sudo apt install dirbuster
+For more info, git and kali tools will help you:
+https://www.kali.org/tools/dirbuster/
+https://github.com/digination/dirbuster-ng    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	''')
     if s == ('Nmap'):
         print('''
+
+███╗░░██╗███╗░░░███╗░█████╗░██████╗░
+████╗░██║████╗░████║██╔══██╗██╔══██╗
+██╔██╗██║██╔████╔██║███████║██████╔╝
+██║╚████║██║╚██╔╝██║██╔══██║██╔═══╝░
+██║░╚███║██║░╚═╝░██║██║░░██║██║░░░░░
+╚═╝░░╚══╝╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░
 Nmap (Network Mapper) is a network scanner created by Gordon Lyon (also known by his pseudonym Fyodor Vaskovich). Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses.Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection. These features are extensible by scripts that provide more advanced service detection, vulnerability detection, and other features. Nmap can adapt to network conditions including latency and congestion during a scan.
 Nmap started as a Linux utility and was ported to other systems including Windows, macOS, and BSD it is most popular on Linux, followed by Windows.
 Nmap was created in September 1997.He was writen by C,C++,Python,Lua.Nmap can audit the security of a device or firewall by identifying the network connections which can be made to, or through it.
@@ -128,6 +213,13 @@ https://www.youtube.com/watch?v=5MTZdN9TEO4&list=PLBf0hzazHTGPx4_jgz6wOJoj4cijSv
        ''')
     if s == ('Dmitry'):
          print('''
+
+██████╗░███╗░░░███╗██╗████████╗██████╗░██╗░░░██╗
+██╔══██╗████╗░████║██║╚══██╔══╝██╔══██╗╚██╗░██╔╝
+██║░░██║██╔████╔██║██║░░░██║░░░██████╔╝░╚████╔╝░
+██║░░██║██║╚██╔╝██║██║░░░██║░░░██╔══██╗░░╚██╔╝░░
+██████╔╝██║░╚═╝░██║██║░░░██║░░░██║░░██║░░░██║░░░
+╚═════╝░╚═╝░░░░░╚═╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░
 DMitry is a UNIX/(GNU)Linux command line application written in C. DMitry can find possible subdomains, email addresses, uptime information, perform tcp port scan, whois lookups, and more.
 DMitry has a base functionality with the ability to add new functions. Basic functionality of DMitry allows for information to be gathered about a target host from a sim- ple whois lookup on the target to UpTime reports and TCP portscans.
 
@@ -141,6 +233,13 @@ https://youtu.be/z2EUhV11QB4
                  ''')
     if s == ('Sqlmap'):
         print('''
+
+░██████╗░██████╗░██╗░░░░░███╗░░░███╗░█████╗░██████╗░
+██╔════╝██╔═══██╗██║░░░░░████╗░████║██╔══██╗██╔══██╗
+╚█████╗░██║██╗██║██║░░░░░██╔████╔██║███████║██████╔╝
+░╚═══██╗╚██████╔╝██║░░░░░██║╚██╔╝██║██╔══██║██╔═══╝░
+██████╔╝░╚═██╔═╝░███████╗██║░╚═╝░██║██║░░██║██║░░░░░
+╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░
 Sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections.
 Attackers can use the tool to get into a database, and potentially the server
 Sqlmap is capable of providing a sql shell into the database - allowing an attacker to potentially execute any arbitrary sql command.
@@ -159,6 +258,13 @@ https://youtu.be/kY_7GXoXGjg
                 ''')
     if s == ('Hydra'):
         print('''
+
+██╗░░██╗██╗░░░██╗██████╗░██████╗░░█████╗░
+██║░░██║╚██╗░██╔╝██╔══██╗██╔══██╗██╔══██╗
+███████║░╚████╔╝░██║░░██║██████╔╝███████║
+██╔══██║░░╚██╔╝░░██║░░██║██╔══██╗██╔══██║
+██║░░██║░░░██║░░░██████╔╝██║░░██║██║░░██║
+╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝
 Hydra (or THC Hydra) is a parallelized network login cracker built in various operating systems like Kali Linux, Parrot and other major penetration testing environments. Hydra works by using different approaches to perform brute-force attacks in order to guess the right username and password combination. Hydra is commonly used by penetration testers together with a set of programmes like crunch, cupp etc, which are used to generate wordlists. Hydra is then used to test the attacks using the wordlists that these programmes created.
 If you wanna install Hydra just read a tut from git repo:
 https://github.com/vanhauser-thc/thc-hydra
@@ -171,6 +277,20 @@ https://youtu.be/rGQ-hekAjJ8
         ''')
     if s == ('Burp'):
         print('''
+
+██████╗░██╗░░░██╗██████╗░██████╗░
+██╔══██╗██║░░░██║██╔══██╗██╔══██╗
+██████╦╝██║░░░██║██████╔╝██████╔╝
+██╔══██╗██║░░░██║██╔══██╗██╔═══╝░
+██████╦╝╚██████╔╝██║░░██║██║░░░░░
+╚═════╝░░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░
+
+░██████╗██╗░░░██╗██╗████████╗███████╗
+██╔════╝██║░░░██║██║╚══██╔══╝██╔════╝
+╚█████╗░██║░░░██║██║░░░██║░░░█████╗░░
+░╚═══██╗██║░░░██║██║░░░██║░░░██╔══╝░░
+██████╔╝╚██████╔╝██║░░░██║░░░███████╗
+╚═════╝░░╚═════╝░╚═╝░░░╚═╝░░░╚══════╝
 Burp or Burp Suite is a set of tools used for penetration testing of web applications. It is developed by the company named Portswigger, which is also the alias of its founder Dafydd Stuttard. BurpSuite aims to be an all in one set of tools and its capabilities can be enhanced by installing add-ons that are called BApps.
 It is the most popular tool among professional web app security researchers and bug bounty hunters. Its ease of use makes it a more suitable choice over free alternatives like OWASP ZAP. Burp Suite is available as a community edition which is free, professional edition that costs $399/year and an enterprise edition that costs $3999/Year. This article gives a brief introduction to the tools offered by BurpSuite. If you are a complete beginner in Web Application Pentest/Web App Hacking/Bug Bounty, we would recommend you to just read through without thinking too much about a term.
 If you wanna install it, see tut in this link:
@@ -184,6 +304,31 @@ https://youtu.be/mK3Hr6ktgNg
         ''')
     if s == ('Metasploit'):
         print('''
+███╗░░░███╗███████╗████████╗░█████╗░
+████╗░████║██╔════╝╚══██╔══╝██╔══██╗
+██╔████╔██║█████╗░░░░░██║░░░███████║
+██║╚██╔╝██║██╔══╝░░░░░██║░░░██╔══██║
+██║░╚═╝░██║███████╗░░░██║░░░██║░░██║
+╚═╝░░░░░╚═╝╚══════╝░░░╚═╝░░░╚═╝░░╚═╝
+░██████╗██████╗░██╗░░░░░░█████╗░██╗████████╗
+██╔════╝██╔══██╗██║░░░░░██╔══██╗██║╚══██╔══╝
+╚█████╗░██████╔╝██║░░░░░██║░░██║██║░░░██║░░░
+░╚═══██╗██╔═══╝░██║░░░░░██║░░██║██║░░░██║░░░
+██████╔╝██║░░░░░███████╗╚█████╔╝██║░░░██║░░░
+╚═════╝░╚═╝░░░░░╚══════╝░╚════╝░╚═╝░░░╚═╝░░░
+
+███████╗██████╗░░█████╗░███╗░░░███╗███████╗
+██╔════╝██╔══██╗██╔══██╗████╗░████║██╔════╝
+█████╗░░██████╔╝███████║██╔████╔██║█████╗░░
+██╔══╝░░██╔══██╗██╔══██║██║╚██╔╝██║██╔══╝░░
+██║░░░░░██║░░██║██║░░██║██║░╚═╝░██║███████╗
+╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝
+░██╗░░░░░░░██╗░█████╗░██████╗░██╗░░██╗
+░██║░░██╗░░██║██╔══██╗██╔══██╗██║░██╔╝
+░╚██╗████╗██╔╝██║░░██║██████╔╝█████═╝░
+░░████╔═████║░██║░░██║██╔══██╗██╔═██╗░
+░░╚██╔╝░╚██╔╝░╚█████╔╝██║░░██║██║░╚██╗
+░░░╚═╝░░░╚═╝░░░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝
 The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development. It is owned by Boston, Massachusetts-based security company Rapid7.
 Its best-known sub-project is the open-source Metasploit Framework, a tool for developing and executing exploit code against a remote target machine. Other important sub-projects include the Opcode Database, shellcode archive and related research.
 
@@ -198,6 +343,13 @@ https://youtube.com/playlist?list=PLBf0hzazHTGN31ZPTzBbk70bohTYT7HSm
     ''')
     if s == ('OWASP_ZAP'):
         print('''
+
+░█████╗░░██╗░░░░░░░██╗░█████╗░░██████╗██████╗░███████╗░█████╗░██████╗░
+██╔══██╗░██║░░██╗░░██║██╔══██╗██╔════╝██╔══██╗╚════██║██╔══██╗██╔══██╗
+██║░░██║░╚██╗████╗██╔╝███████║╚█████╗░██████╔╝░░███╔═╝███████║██████╔╝
+██║░░██║░░████╔═████║░██╔══██║░╚═══██╗██╔═══╝░██╔══╝░░██╔══██║██╔═══╝░
+╚█████╔╝░░╚██╔╝░╚██╔╝░██║░░██║██████╔╝██║░░░░░███████╗██║░░██║██║░░░░░
+░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═════╝░╚═╝░░░░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░
 OWASP ZAP (short for Zed Attack Proxy) is an open-source web application security scanner. It is intended to be used by both those new to application security as well as professional penetration testers.
 It is one of the most active Open Web Application Security Project (OWASP) projects and has been given Flagship status.
 
